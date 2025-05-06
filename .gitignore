@@ -1,0 +1,22 @@
+# Ignorar arquivos Python compilados
+__pycache__/
+*.pyc
+
+# Ignorar arquivos de modelo e datasets
+*.pkl
+*.csv
+
+# Ignorar ambientes virtuais
+env/
+venv/
+.env/
+
+# Checkpoints de notebooks
+.ipynb_checkpoints/
+
+# Dados brutos e processados (coloque arquivos reais no .gitignore, não as pastas)
+data/raw/*
+data/processed/*
+
+# Ignorar arquivos sensíveis
+*.env
